@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"UdemyTuto/Section6/SampleTokenSale.sol": "IERC20"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"UdemyTuto/Section6/SampleTokenSale.sol": {
+			"keccak256": "0xf36245fbe7fb1ad22d41701dee4fa034e013eb80093428f859ee2344cfc821ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a6285ba6518c4c505f9f5af7b2a6a86505f08be078f89e3f199502c1797023d",
+				"dweb:/ipfs/QmXWtskE95dBJjmzdCbZWPSnHEhfGMBho1yjb9tycvRFzt"
+			]
+		}
+	},
+	"version": 1
+}

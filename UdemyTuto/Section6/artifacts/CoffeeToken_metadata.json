@@ -740,11 +740,11 @@
 			]
 		},
 		"UdemyTuto/Section6/SampleToken.sol": {
-			"keccak256": "0xbbc2ea175b29f0ffe2db44a00e2cf1171351f634fce326653445ee28fa0834bf",
+			"keccak256": "0xe45b234850ba69de0ecf713939cba8ade13d2b53e8b1fe3f4dd1fd8abc3c7292",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce15953c16337f0d085d6d186bcb41ccfed36ccdc60cf5b6f902d7b611f437b9",
-				"dweb:/ipfs/Qmd2fYEbhfHBPjPqCGgctpxdzTH3qAUSKaz8qgoLchSZHP"
+				"bzz-raw://9a36feff425a7df94f94b5d14b522f77b280c6d2300f74e61e057a517a3e6a0f",
+				"dweb:/ipfs/QmRrudF2feACmt9d4L1QKM6LMpiYso95e9JSdDTeMNdJcC"
 			]
 		}
 	},
