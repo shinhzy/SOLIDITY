@@ -1,0 +1,16 @@
+{
+    "name": "Tuto Token 📄",
+    "description": "Just Tutorial NFT.\n\nIntroducing the Black and White Image\n\nI drew this with the xxpaint. This is 64x64 Image.",
+    "image": "https://raw.githubusercontent.com/shinhzy/SOLIDITY/main/UdemyTuto/Section7/NFTdata/TUTOTK01.png",
+    "external_url": "",
+    "attributes": [
+        {
+            "trait_type": "Artefact", 
+            "value": "Socks"
+        },
+        {
+            "trait_type": "Collection", 
+            "value": "Genesis"
+        }
+    ]
+}
