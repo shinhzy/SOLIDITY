@@ -14,7 +14,7 @@ contract TutoToken is ERC721, ERC721URIStorage, Ownable {
     constructor() ERC721("TutoToken", "TTK") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://raw.githubusercontent.com/shinhzy/SOLIDITY/main/UdemyTuto/Section7/NFTdata";
+        return "https://raw.githubusercontent.com/shinhzy/SOLIDITY/main/UdemyTuto/Section7/NFTdata/";
     }
 
     function safeMint(address to, string memory uri) public onlyOwner {
