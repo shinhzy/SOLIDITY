@@ -6,7 +6,10 @@
 
 
 //<1. {SampleToken.sol} 홀로 테스트 >
-//
+// 가상 어카운트 A,B 가 있을 때,
+// A 어카운트가 디플로이한 X(A){ SampleToken.sol > AccessControl } 컨트랙트가 있다.
+// X(A) 컨트랙트에서 A 어카운트로 < to: B 주소, amount: 100 >로 mint 하였다.
+// X(A) 컨트랙트에서 "         " < account: B 주소 >로 balanceOf로 토큰 잔액 확인하였다.
 
 //<2. {SampleToken.sol}, {SampleTokenSale.sol} 함께 테스트 >
 // 가상 어카운트 A,B,C 가 있을 때,
@@ -31,6 +34,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
 //커피 토큰으로 커피를 구매하는 것에 비유
+
 contract CoffeeToken is ERC20, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
