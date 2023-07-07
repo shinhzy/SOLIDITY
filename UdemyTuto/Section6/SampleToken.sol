@@ -25,8 +25,6 @@
 // 값이 1 ETH 감소하여 4*10^18 이 된 것을 확인할 수 있다.
 
 
-
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
